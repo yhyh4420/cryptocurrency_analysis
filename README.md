@@ -44,7 +44,7 @@
    ```bash
    poetry run app.py
    
-### 사용 방법
+## 사용 방법
 
 이 프로젝트는 다음과 같은 API를 사용합니다:
 - OpenAI API: 자연어 처리 및 이해를 위한 GPT 모델 사용.
