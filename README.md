@@ -30,11 +30,24 @@
 
 2. **의존성 설치**
    Poetry가 설치되어 있는지 확인한 후, 다음 명령어를 실행하여 필요한 패키지를 설치합니다.
-   ```poetry install
+   ```bash
+   poetry install
 
 3. **.env파일 생성**
    프로젝트 루트 디렉토리에 .env 파일을 생성하고, OpenAI API 키와 Taivily API 키를 추가합니다:
-   ```OPENAI_API_KEY=your_openai_api_key_here
+   ```bash
+   OPENAI_API_KEY=your_openai_api_key_here
    TAIVILY_API_KEY=your_taivily_api_key_here
 
-5. 
+4. **챗봇 실행**
+   다음 명령어를 사용하여 챗봇을 실행합니다:
+   ```bash
+   poetry run app.py
+   
+### 사용 방법
+
+이 프로젝트는 다음과 같은 API를 사용합니다:
+- OpenAI API: 자연어 처리 및 이해를 위한 GPT 모델 사용.
+- Taivily API: 실시간 암호화폐 데이터 제공.
+
+API 키는 각 서비스의 웹사이트를 통해 발급받을 수 있습니다.
